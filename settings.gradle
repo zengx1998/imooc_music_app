@@ -1,0 +1,14 @@
+include ':lib_commin_ui'
+include ':lib_image_loader'
+include ':lib_qrcode'
+include ':lib_share'
+include ':lib_update'
+include ':lib_video'
+
+include ':lib_webview'
+include ':lib_pullalive'
+include ':lib_network'
+include ':lib_audio'
+include ':lib_base'
+include ':imooc_voice'
+rootProject.name = "imooc_music_app"

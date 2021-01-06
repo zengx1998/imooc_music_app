@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.android.compileSdkVersion
+    buildToolsVersion rootProject.android.buildToolsVersion
+
+    defaultConfig {
+        applicationId rootProject.android.applicationId
+        minSdkVersion rootProject.android.minSdkVersion
+        targetSdkVersion rootProject.android.targetSdkVersion
+        versionCode rootProject.android.versionCode
+        versionName rootProject.android.versionName
+        multiDexEnabled rootProject.android.multiDexEnabled
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation rootProject.depsLibs.appcompact
+    implementation rootProject.depsLibs.design
+    implementation rootProject.depsLibs.recyclerview
+    implementation rootProject.depsLibs.constraint
+    //eventbus类库依赖
+    implementation  rootProject.depsLibs.eventbus
+    //greendao类库依赖
+    implementation rootProject.depsLibs.greendao
+    //rxjava库
+    implementation rootProject.depsLibs.rxjava
+    implementation rootProject.depsLibs.rxandroid
+    //arouter库
+//    implementation(rootProject.depsLibs.arouterapi) {
+//        exclude group: 'com.android.support'
+//    }
+//    annotationProcessor rootProject.depsLibs.aroutercompiler
+    //gson解析库
+    implementation rootProject.depsLibs.gson
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation rootProject.depsLibs.magicindicator
+    //基础UI库
+    implementation project(':lib_base')
+    implementation project(':lib_commin_ui')
+    implementation project(':lib_network')
+    implementation project(':lib_image_loader')
+}
