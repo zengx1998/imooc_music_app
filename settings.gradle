@@ -1,4 +1,4 @@
-include ':lib_commin_ui'
+include ':lib_common_ui'
 include ':lib_image_loader'
 include ':lib_qrcode'
 include ':lib_share'
