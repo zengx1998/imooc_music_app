@@ -1,4 +1,4 @@
-package com.imooc.lib_commin_ui;
+package com.imooc.lib_common_ui;
 
 import android.content.Context;
 import android.content.res.TypedArray;
