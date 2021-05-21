@@ -1,4 +1,4 @@
-package com.imooc.lib_commin_ui.utils;
+package com.imooc.lib_common_ui.utils;
 
 import android.app.Activity;
 import android.content.Context;

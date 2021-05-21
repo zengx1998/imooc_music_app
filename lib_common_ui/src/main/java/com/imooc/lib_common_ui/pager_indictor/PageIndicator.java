@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.imooc.lib_commin_ui.pager_indictor;
+package com.imooc.lib_common_ui.pager_indictor;
 
 import androidx.viewpager.widget.ViewPager;
 

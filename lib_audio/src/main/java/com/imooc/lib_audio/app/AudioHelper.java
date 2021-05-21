@@ -1,4 +1,4 @@
-﻿package com.imooc.lib_audio.app;
+package com.imooc.lib_audio.app;
 
 import android.content.Context;
 

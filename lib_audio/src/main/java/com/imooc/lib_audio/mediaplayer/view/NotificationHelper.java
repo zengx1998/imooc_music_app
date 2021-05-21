@@ -1,4 +1,4 @@
-﻿package com.imooc.lib_audio.mediaplayer.view;
+package com.imooc.lib_audio.mediaplayer.view;
 
 /**
  * @Description: 音乐Notification帮助类

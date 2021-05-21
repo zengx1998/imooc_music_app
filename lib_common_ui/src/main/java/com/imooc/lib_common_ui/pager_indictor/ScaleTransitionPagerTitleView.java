@@ -1,4 +1,4 @@
-package com.imooc.lib_commin_ui.pager_indictor;
+package com.imooc.lib_common_ui.pager_indictor;
 
 import android.content.Context;
 import net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.ColorTransitionPagerTitleView;

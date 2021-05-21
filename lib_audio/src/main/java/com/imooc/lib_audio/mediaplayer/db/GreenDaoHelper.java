@@ -1,4 +1,4 @@
-﻿package com.imooc.lib_audio.mediaplayer.db;
+package com.imooc.lib_audio.mediaplayer.db;
 
 /**
  * @Description: 功能描述

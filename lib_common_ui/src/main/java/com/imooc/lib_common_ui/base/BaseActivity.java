@@ -1,4 +1,4 @@
-package com.imooc.lib_commin_ui.base;
+package com.imooc.lib_common_ui.base;
 
 import android.content.pm.PackageManager;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
 
-import com.imooc.lib_commin_ui.utils.StatusBarUtil;
+import com.imooc.lib_common_ui.utils.StatusBarUtil;
 
 /**
  * @author zengx

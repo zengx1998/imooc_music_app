@@ -1,4 +1,4 @@
-﻿package com.imooc.lib_audio.mediaplayer.utils;
+package com.imooc.lib_audio.mediaplayer.utils;
 
 import android.content.Context;
 import android.view.Display;

@@ -1,4 +1,4 @@
-﻿package com.imooc.lib_audio.mediaplayer.core;
+package com.imooc.lib_audio.mediaplayer.core;
 
 import android.content.Context;
 import android.media.AudioManager;
@@ -86,7 +86,7 @@ public class AudioPlayer implements MediaPlayer.OnCompletionListener, MediaPlaye
      * @return 状态
      */
     public CustomMediaPlayer.Status getStatus(){
-        if (mMediaPlayer!=null){
+        if (mMediaPlayer !=null){
             return mMediaPlayer.getState();
         } else {
             return CustomMediaPlayer.Status.STOPPED;

@@ -11,12 +11,12 @@ import com.imooc.imooc_voice.api.RequestCenter;
 import com.imooc.imooc_voice.model.login.LoginEvent;
 import com.imooc.imooc_voice.model.user.User;
 import com.imooc.imooc_voice.utils.UserManager;
-import com.imooc.lib_commin_ui.base.BaseActivity;
+import com.imooc.lib_common_ui.base.BaseActivity;
 import com.imooc.lib_network.okhttp.listener.DisposeDataListener;
 
 import org.greenrobot.eventbus.EventBus;
 
-/**
+/*
  * @author zengx
  */
 public class LoginActivity extends BaseActivity {

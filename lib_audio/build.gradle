@@ -46,6 +46,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     //占位主工程android原生库
     compileOnly rootProject.depsLibs.appcompact
     compileOnly rootProject.depsLibs.design
